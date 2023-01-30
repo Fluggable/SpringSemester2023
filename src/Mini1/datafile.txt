@@ -1,0 +1,29 @@
+ID = 0
+Room name = Beginning
+Description = Y0ou are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
+exits = East
+
+ID = 1
+Room name = Room1
+Description =Y1ou are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
+exits = East, West, South
+
+ID = 2
+Room name = Room2
+Description = Y2ou are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
+exits = South, West
+
+ID = 3
+Room name = Room3
+Description = Y3ou are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
+exits = North, West
+
+ID = 4
+Room name = Room4
+Description = Y4ou are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
+exits = East, North, South
+
+ID = 5
+Room name = End
+Description = Y5ou are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
+exits = North
