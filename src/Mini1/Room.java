@@ -5,22 +5,22 @@ import java.util.ArrayList;
 public class Room {
     private String RoomID;
     private String RoomName;
-    private ArrayList<String> Description;
+    private String Description;
     private ArrayList<Exit> Exits;
     private boolean Visited;
 
-    public Room(String roomID, String roomName, ArrayList<String> description, ArrayList<Exit> exits, boolean visited) {
-        RoomID = roomID;
-        RoomName = roomName;
-        Description = description;
-        Exits = exits;
-        Visited = visited;
+    public Room(String roomID, String roomName, String description, ArrayList<Exit> exits, boolean visited) {
+        this.RoomID = roomID;
+        this.RoomName = roomName;
+        this.Description = description;
+        this.Exits = exits;
+        this.Visited = visited;
     }
-    public Room(String roomID, String roomName, ArrayList<String> description, ArrayList<Exit> exits) {
-        RoomID = roomID;
-        RoomName = roomName;
-        Description = description;
-        Exits = exits;
+    public Room(String roomID, String roomName, String description, ArrayList<Exit> exits) {
+        this.RoomID = roomID;
+        this.RoomName = roomName;
+        this.Description = description;
+        this.Exits = exits;
     }
     public Room(){
     }
@@ -33,11 +33,11 @@ public class Room {
         RoomName = roomName;
     }
 
-    public ArrayList<String> getDescription() {
+    public String getDescription() {
         return Description;
     }
 
-    public void setDescription(ArrayList<String> description) {
+    public void setDescription(String description) {
         Description = description;
     }
 
@@ -63,5 +63,16 @@ public class Room {
 
     public void setRoomID(String roomID) {
         RoomID = roomID;
+    }
+
+    @Override
+    public String toString() {
+        return "Room{" +
+                "RoomID='" + RoomID + '\'' +
+                ", RoomName='" + RoomName + '\'' +
+                ", Description='" + Description + '\'' +
+                ", Exits=" + Exits +
+                ", Visited=" + Visited +
+                '}';
     }
 }

@@ -1,29 +1,29 @@
 ID = 0
 Room name = Beginning
 Description = Y0ou are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
-exits = East
+exits = East:1
 
 ID = 1
-Room name = Room1
-Description =Y1ou are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
-exits = East, West, South
+Room name = Room1name
+Description = Y1ou are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
+exits = East:2,West:0
 
 ID = 2
-Room name = Room2
+Room name = Room2name
 Description = Y2ou are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
-exits = South, West
+exits = East:3,West:1
 
 ID = 3
-Room name = Room3
+Room name = Room3name
 Description = Y3ou are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
-exits = North, West
+exits = East:4,West:2
 
 ID = 4
-Room name = Room4
+Room name = Room4name
 Description = Y4ou are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
-exits = East, North, South
+exits = East:5,West:3
 
 ID = 5
-Room name = End
+Room name = Endname
 Description = Y5ou are standing at the end of a road before a dark and dank cave. The forest is covering the road lending a dark and spooky aspect to the road. You hear a low wailing that seems to be coming from the cave.
-exits = North
+exits = West:5
